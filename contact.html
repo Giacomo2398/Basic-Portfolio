@@ -2,34 +2,45 @@
     <html>
         <head>
             <title>Contact Me!</title>
-            <h1>Giacomo Fernandez</h1>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portofolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <link rel="stylesheet" href="assets/css/style.css">
+        <section id="acenter">
+            <h1 class="name">Giacomo Fernandez</h1>
+        </section>
+            <div class="topnav">
+        <section id="acenter">
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="index.html">About</a>
+            </div>
+        </section>
         </head>
         <body>
-            <div class="container">
-                <form action="action_page.php">
-
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="compname" placeholder="John Smith">
-                    
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-
-                    <label for="Message">Message</label>
-                    <textarea id="message" name="message" style="height:200px"></textarea>
-
-                    <input type="submit" value="Submit">
-
-                </form>
-            </div>
-
-
-
+                <div class="middle">
+                    <h1 class="Tme">Contact</h1>
+                    <br>
+                <hr/>
+                    <div class="container">
+                        <form action="action_page.php">
+                            <label for="name">Name</label>
+                            <br><br>
+                            <input type="text" id="name" name="compname" placeholder="John Smith">
+                            <br><br>
+                            <label for="email">Email</label>
+                            <br><br>
+                            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                            <br><br>
+                            <label for="Message">Message</label>
+                            <br><br>
+                            <textarea id="message" name="message" style="height:200px"></textarea>
+                            <br><br>
+                            <input id="submit" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
         </body>
-
-
+            <footer> 
+                <div class="line">
+                </div>
+                Copyright
+            </footer>
     </html>
